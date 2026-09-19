@@ -9,6 +9,6 @@ test_split = test_val_split["train"]
 val_split = test_val_split["test"]
 
 
-print(len(train_split)/len(dataset))
-print(len(test_split)/len(dataset))
-print(len(val_split)/len(dataset))
+print(len(train_split) / len(dataset))
+print(len(test_split) / len(dataset))
+print(len(val_split) / len(dataset))
